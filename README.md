@@ -1,4 +1,4 @@
-# Wheelwell Task Service
+# Task Service
 
 Microservice used to manage recurring jobs. New cron jobs can be added to worker, which starts all cron jobs in its queue automatically on server start.
 
