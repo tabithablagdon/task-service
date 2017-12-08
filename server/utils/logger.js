@@ -60,9 +60,9 @@ var cloudwatchConfig = {
     createLogGroup: false,
     createLogStream: true,
     awsConfig: {
-        accessKeyId: 'AKIAJAKA2PBKZPADWEEQ', // test
-        secretAccessKey: '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', // test
-        region: 'us-east-1' // test
+        accessKeyId: process.env.aws_access_key
+        secretAccessKey: process.env.aws_secret_key
+        region: process.env.aws_region
     },
     formatLog: function (item) {
         return item.level + ': ' + item.message + ' ' + JSON.stringify(item.meta);
