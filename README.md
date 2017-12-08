@@ -14,6 +14,7 @@ Microservice used to manage recurring jobs. New cron jobs can be added to worker
 [chalk](https://github.com/chalk/chalk)
 [lodash](https://lodash.com)
 [babel](https://babeljs.io/)
+[winston](https://github.com/winstonjs/winston)
 
 ## File Structure
 
